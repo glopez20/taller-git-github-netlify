@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+:root {
+  --mid-gray: #838383;
+}
+
+* {
+  font-family: "Roboto Condensed", cursive;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+.section__title {
+  margin-bottom: 0.5em;
+}
+
+.section__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.section__row p {
+  font-size: 1.25em;
+}
+
+.section__row .row__label {
+  color: var(--mid-gray);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.section__help-text {
+  margin-top: 1em;
+  font-size: 1em;
+  color: var(--mid-gray);
+  font-weight: 400;
+}
+
+.football-teams {
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.football-team {
+  flex: 1;
+  padding: 2em;
+  border-radius: 16px;
+  box-shadow: 0px 0px 20px 10px #f2f2f2;
+}
+
+.football-team__logo {
+  max-width: 350px;
+  padding: 2em;
+  margin: auto;
+}
+
+.football-team__logo img {
+  width: 100%;
+}
+
+.football-team__name {
+  font-size: 2em;
+}
+
+.football-team__slogan {
+  font-size: 1.25em;
+  color: var(--mid-gray);
+}
